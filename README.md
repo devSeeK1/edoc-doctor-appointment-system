@@ -2,6 +2,11 @@
 
 A comprehensive web-based platform for managing doctor appointments, patient records, and medical scheduling.
 
+## Main Interface
+
+### Homepage
+![Homepage](screenshots/index-page.png)
+
 ## Features
 
 - **Multi-user system** with roles for Admin, Doctor, and Patient
@@ -28,6 +33,23 @@ A comprehensive web-based platform for managing doctor appointments, patient rec
 - View personal appointment history
 - Manage profile information
 
+## Screenshots
+
+### Patient Dashboard
+![Patient Dashboard](screenshots/patient-dashboard.png)
+
+### Doctor Dashboard
+![Doctor Dashboard](screenshots/doctor-dashboard.png)
+
+### Admin Dashboard
+![Admin Dashboard](screenshots/admin-dashboard.png)
+
+### Login Page
+![Login Page](screenshots/login-page.png)
+
+### Mobile View
+![Mobile View](screenshots/mobile-view.png)
+
 ## Technologies Used
 
 - **Frontend**: HTML, CSS, JavaScript, Tailwind CSS
@@ -39,7 +61,7 @@ A comprehensive web-based platform for managing doctor appointments, patient rec
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/edoc-doctor-appointment-system.git
+   git clone https://github.com/devSeeK1/edoc-doctor-appointment-system.git
    ```
 
 2. Set up a local development environment:
