@@ -95,18 +95,17 @@
                                         <a href="../logout.php" ><input type="button" value="Chiqish" class="logout-btn btn-primary-soft btn"></a>
                                     </td>
                                 </tr>
-                        </table>
+                            </table>
                         </td>
-                    
                     </tr>
                     <tr class="menu-row" >
                         <td class="menu-btn menu-icon-home menu-active menu-icon-home-active" >
-                            <a href="index.php" class="non-style-link-menu non-style-link-menu-active"><div><p class="menu-text">Bosh sahifa</p></a></div></a>
+                            <a href="index.php" class="non-style-link-menu non-style-link-menu-active"><div><p class="menu-text">Bosh sahifa</p></div></a>
                         </td>
                     </tr>
                     <tr class="menu-row">
                         <td class="menu-btn menu-icon-doctor">
-                            <a href="doctors.php" class="non-style-link-menu"><div><p class="menu-text">Barcha shifokorlar</p></a></div>
+                            <a href="doctors.php" class="non-style-link-menu"><div><p class="menu-text">Barcha shifokorlar</p></div></a>
                         </td>
                     </tr>
                     
@@ -117,15 +116,14 @@
                     </tr>
                     <tr class="menu-row" >
                         <td class="menu-btn menu-icon-appoinment">
-                            <a href="appointment.php" class="non-style-link-menu"><div><p class="menu-text">Mening bronlarim</p></a></div>
+                            <a href="appointment.php" class="non-style-link-menu"><div><p class="menu-text">Mening bronlarim</p></div></a>
                         </td>
                     </tr>
                     <tr class="menu-row" >
                         <td class="menu-btn menu-icon-settings">
-                            <a href="settings.php" class="non-style-link-menu"><div><p class="menu-text">Sozlamalar</p></a></div>
+                            <a href="settings.php" class="non-style-link-menu"><div><p class="menu-text">Sozlamalar</p></div></a>
                         </td>
                     </tr>
-                    
                 </table>
             </div>
         </div>
