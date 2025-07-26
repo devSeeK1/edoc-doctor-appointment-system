@@ -32,14 +32,12 @@
     if(isset($_SESSION["user"])){
         if(($_SESSION["user"])=="" or $_SESSION['usertype']!='p'){
             header("location: ../login.php");
-            exit();
         }else{
             $useremail=$_SESSION["user"];
         }
 
     }else{
         header("location: ../login.php");
-        exit();
     }
     
 
@@ -56,6 +54,10 @@
     $userid= $userfetch["pid"];
     $username=$userfetch["pname"];
 
+
+    //echo $userid;
+    //echo $username;
+    
     ?>
     
     <!-- Mobile menu -->
