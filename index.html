@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eDoc - Doctor Appointment System</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom animations -->
+    <style>
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .animate-fade-in-up {
+            animation: fadeInUp 0.5s ease-out;
+        }
+        .hero-bg {
+            background-image: url('img/bg01.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body class="font-sans">
+    <!-- Hero Section -->
+    <div class="hero-bg min-h-screen flex flex-col">
+        <div class="bg-black bg-opacity-50 min-h-screen flex flex-col">
+            <!-- Navigation -->
+            <nav class="flex justify-end p-6">
+                <div class="flex space-x-4">
+                    <a href="login.php" class="text-white hover:text-blue-300 transition duration-300 px-4 py-2">
+                        Kirish
+                    </a>
+                    <a href="signup.php" class="text-white hover:text-blue-300 transition duration-300 px-4 py-2">
+                        Ro'yxatdan o'tish
+                    </a>
+                </div>
+            </nav>
+
+            <!-- Main Content -->
+            <div class="flex-grow flex flex-col items-center justify-center px-4">
+                <div class="text-center max-w-3xl animate-fade-in-up">
+                    <h1 class="text-4xl md:text-5xl font-bold text-white mb-6">
+                        Tashvish va kechikishlarsiz!
+                    </h1>
+                    <p class="text-xl text-gray-300 mb-10">
+                        Sog'lig'ingiz yomonlashdimi? Xavotir olmang! eDoc orqali shifokoringizni toping va bepul uchrashuv belgilang.
+                    </p>
+                    <a href="login.php" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition duration-300 transform hover:scale-105 inline-block">
+                        Uchrashuv tayinlash
+                    </a>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <footer class="py-6 text-center">
+                <p class="text-gray-400 text-sm">
+                    BY EZOZBEK
+                </p>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

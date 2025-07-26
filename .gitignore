@@ -1,0 +1,41 @@
+# IDE and editor files
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Composer
+/vendor/
+composer.phar
+composer.lock
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Temporary files
+tmp/
+temp/
+
+# Database dump files (except the main edoc.sql)
+*.sql
+!edoc.sql
+
+# Backup files
+*.bak
+*.backup
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

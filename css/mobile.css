@@ -1,0 +1,334 @@
+/* Mobile-specific styles for eDoc system */
+
+/* Hide desktop-specific elements on mobile */
+.desktop-menu {
+  display: none;
+}
+
+/* Mobile menu styles */
+.mobile-menu {
+  display: block;
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.mobile-menu-toggle {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  font-size: 16px;
+}
+
+.mobile-menu-items {
+  display: none;
+  background-color: white;
+  border: 1px solid #dee2e6;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  margin-top: -1px;
+}
+
+.mobile-menu-items.active {
+  display: block;
+}
+
+.mobile-menu-item {
+  padding: 12px 15px;
+  border-bottom: 1px solid #eee;
+  text-decoration: none;
+  display: block;
+  color: #333;
+}
+
+.mobile-menu-item:last-child {
+  border-bottom: none;
+}
+
+.mobile-menu-item:hover {
+  background-color: #f8f9fa;
+}
+
+.mobile-menu-item.active {
+  background-color: #e9ecef;
+  font-weight: bold;
+}
+
+/* Responsive dashboard cards */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  padding: 15px;
+}
+
+.dashboard-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.dashboard-card-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dashboard-card-content h3 {
+  margin: 0 0 5px 0;
+  font-size: 24px;
+  color: #007bff;
+}
+
+.dashboard-card-content p {
+  margin: 0;
+  color: #6c757d;
+}
+
+/* Responsive form elements */
+.form-container-mobile {
+  padding: 15px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.form-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+}
+
+.form-button.secondary {
+  background-color: #6c757d;
+}
+
+.form-button.secondary:hover {
+  background-color: #545b62;
+}
+
+/* Responsive tables */
+.responsive-table {
+  overflow-x: auto;
+  margin-bottom: 15px;
+}
+
+.responsive-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.responsive-table th,
+.responsive-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.responsive-table th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+/* Profile section */
+.profile-mobile {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background-color: white;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.profile-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.profile-info h3 {
+  margin: 0 0 5px 0;
+  font-size: 18px;
+}
+
+.profile-info p {
+  margin: 0;
+  color: #6c757d;
+}
+
+.logout-button {
+  margin-left: auto;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Search section */
+.search-mobile {
+  padding: 15px;
+  background-color: white;
+  margin-bottom: 15px;
+}
+
+.search-mobile form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.search-mobile input[type="search"] {
+  padding: 12px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.search-mobile input[type="submit"] {
+  padding: 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Welcome section */
+.welcome-mobile {
+  padding: 20px 15px;
+  background-color: white;
+  margin-bottom: 15px;
+}
+
+.welcome-mobile h3 {
+  margin-top: 0;
+}
+
+.welcome-mobile h1 {
+  margin: 10px 0;
+  color: #007bff;
+}
+
+.welcome-mobile p {
+  line-height: 1.6;
+}
+
+/* Status cards */
+.status-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  padding: 0 15px 15px;
+}
+
+.status-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.status-card-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.status-card-content h3 {
+  margin: 0 0 3px 0;
+  font-size: 20px;
+  color: #007bff;
+}
+
+.status-card-content p {
+  margin: 0;
+  color: #6c757d;
+  font-size: 14px;
+}
+
+/* Media queries for larger mobile screens */
+@media (min-width: 480px) {
+  .dashboard-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .status-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Media queries for tablets */
+@media (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+  
+  .desktop-menu {
+    display: block;
+  }
+  
+  .dashboard-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .status-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .search-mobile form {
+    flex-direction: row;
+  }
+  
+  .search-mobile input[type="search"] {
+    flex: 1;
+  }
+  
+  .search-mobile input[type="submit"] {
+    width: auto;
+    margin-left: 10px;
+  }
+}
